@@ -1,0 +1,87 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+}
+header
+{
+    background-image: url(./img4/hd-wallpaper-gfecf25261_1920.jpg);
+    background-position: center;
+    height: 660px;
+    background-size: cover;
+}
+.navbar
+{
+    display: flex;
+}
+.Logo
+{
+    margin-top: 0;
+    margin-left: 20px;
+    color: white;
+    border: 1px solid white;
+    padding: 0 20px;
+    position: absolute;
+    top: 15px;
+}
+span
+{
+    font-size: 40px;
+    color: red;
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-left: 600px;
+    margin-top: 10px;
+    
+}
+li
+{
+    padding: 15px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white transparent;
+    padding: 10px;
+}
+li :hover
+{
+    background: white;
+    color: black;
+}
+.active a
+{
+    background: white;
+    color: black;
+}
+.Centre
+{
+    margin-left: 450px;
+    position: absolute;
+    top: 300px;
+}
+.Centre h1
+{
+    color: white;
+    font-size: 50px;
+}
+.button
+{
+    position: absolute;
+    top: 430px;
+    margin-left: 550px;
+}
+.btn 
+{
+    border: 1px solid white;
+}
+.button :hover
+{
+    background: white;
+    color: black;
+}

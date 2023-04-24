@@ -1,0 +1,110 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.section
+{
+    background-color: cadetblue;
+    width: 400px;
+    height: 800px;
+}
+h1
+{
+    position: absolute;
+    top: 2px;
+}
+.class1
+{
+    color:white;
+    font-size: 40px;
+    margin-left: 200px;
+}
+.class2
+{
+    color: red;
+    font-size: 40px;
+    margin-left: 2px;
+}
+ul
+{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -780px;
+    list-style-type: none;
+    background-color: red;
+    width: 600px;
+    height: 50px;
+    border-bottom-left-radius: 20px 20px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+li
+{
+    padding: 20px;
+}
+.text
+{
+    margin-left: 550px;
+    position: absolute;
+    top: 150px;
+}
+.p1
+{
+    font-size: 25px;
+}
+.p2
+{
+    font-size: 40px;
+}
+.saanvi
+{
+    color: red;
+}
+.btn
+{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    margin-left: 600px;
+    position: absolute;
+    top: 500px;
+    border-radius: 10px;
+    border: none;
+}
+img
+{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 60px;
+    top: 80px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.btn2
+{
+    background-color: limegreen;
+    width: 150px;
+    height: 50px;
+    margin-left: 800px;
+    position: absolute;
+    top: 500px;
+    border-radius: 10px;
+    border: none;
+}
+.insta
+{
+    margin-left: 330px;
+    position: absolute;
+    top: 580px;
+}
+.facebook
+{
+    margin-left: 300px;
+    position: absolute;
+    top: 580px;
+}

@@ -1,0 +1,704 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: url(./imgTulum/AC4_Tulum.webp);
+    background-position: center;
+    height: 660px;
+    background-size: cover;
+}
+.navbar
+{
+    display: flex;
+}
+.Logo
+{
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+span
+{
+    color: #FB911F;
+}
+ul
+{
+    margin-left: 400px;
+    display: flex;
+    list-style-type: none;
+}
+li
+{
+    padding: 15px;
+}
+a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+li a::after
+{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #FB911F;
+    margin: auto;
+    display: block;
+}
+li a:hover::after
+{
+    width: 100%;
+    transition: linear;
+}
+li a:hover
+{
+    color: #FB911F;
+}
+.button
+{
+    background-color: #FB911F;
+    position: absolute;
+    top: 20px;
+    margin-left: 1160px;
+    text-align: center;
+    padding: 10px 20px;
+}
+.button :hover 
+{
+    opacity: 0.33;
+}
+.btn
+{
+    border: 10px;
+}
+h2
+{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    margin-left: 400px;
+}
+p
+{
+    color: white;
+    position: absolute;
+    top: 280px;
+    font-size: 20px;
+    margin-left: 270px;
+}
+.p2
+{
+    color: white;
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+    margin-left: 290px;
+}
+.p3
+{
+    position: absolute;
+    top: 320px;
+    font-size: 20px;
+    margin-left: 470px;
+}
+.button2
+{
+    background-color: #FB911F;
+    position: absolute;
+    top: 380px;
+    margin-left: 560px;
+    text-align: center;
+    padding: 5px 15px;
+}
+.button3
+{
+    background-color: #2A4963;
+    position: absolute;
+    top: 380px;
+    margin-left: 725px;
+    text-align: center;
+    padding: 5px 15px;
+}
+h3
+{
+    position: absolute;
+    top: 720px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.span2
+{
+    font-size: 50px;
+}
+.p4
+{
+    position: absolute;
+    top: 800px;
+    color: black;
+    margin-left: 100px;
+    font-size: 17px;
+}
+.img
+{
+    position: absolute;
+    margin-left: 950px;
+    top: 760px;
+}
+.h3
+{
+    position: absolute;
+    top: 450px;
+    margin-left: 500px;
+}
+.span3
+{
+    font-size: 50px;
+}
+.p5
+{
+    position: absolute;
+    top: 1240px;
+    color: black;
+    font-size: 17px;
+    margin-left: 350px;
+}
+.bloc1
+{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 1340px;
+    margin-left: 290px;
+    box-shadow: 10px 20px 30px;
+}
+
+.img2
+{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 15px;
+}
+h4
+{
+    position: absolute;
+    top: 300px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.bloc2
+{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 1340px;
+    margin-left: 680px;
+    box-shadow: 10px 20px 30px;
+}
+.img3
+{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 15px;
+}
+h5
+{
+    position: absolute;
+    top: 300px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.bloc3
+{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 1750px;
+    margin-left: 290px;
+    box-shadow: 10px 20px 30px;
+}
+h6
+{
+    position: absolute;
+    top: 290px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.img4
+{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 15px;
+}
+.bloc4
+{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 1750px;
+    margin-left: 680px;
+    box-shadow: 10px 20px 30px;
+}
+.p6
+{
+    color: black;
+    position: absolute;
+    top: 315px;
+    margin-left: 110px;
+    font-size: 20px;
+}
+.img5
+{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 15px;
+}
+.bloc5
+{
+    background-color:white;
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 2160px;
+    margin-left: 290px;
+    box-shadow: 10px 20px 30px;
+}
+.p7
+{
+    color: black;
+    position: absolute;
+    top: 315px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.img6
+{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 15px;
+}
+.bloc6
+{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 2160px;
+    margin-left: 680px;
+    box-shadow: 10px 20px 30px;
+}
+.p8
+{
+    color: black;
+    position: absolute;
+    top: 315px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.img7
+{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 15px;
+}
+.bloc7
+{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 2570px;
+    margin-left: 290px;
+    box-shadow: 10px 20px 30px;
+}
+.p9
+{
+    color: black;
+    position: absolute;
+    top: 315px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.img8
+{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 15px;
+}
+.bloc8
+{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 2570px;
+    margin-left: 680px;
+    box-shadow: 10px 20px 30px;
+}
+.p10
+{
+    color: black;
+    position: absolute;
+    top: 315px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.img9
+{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 15px;
+}
+.button4
+{
+    background-color: #FB911F;
+    position: absolute;
+    top: 2980px;
+    margin-left: 650px;
+    text-align: center;
+    padding: 5px 15px;
+}
+.p11
+{
+    color: black;
+    position: absolute;
+    top: 3050px;
+    margin-left: 570px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.span4
+{
+    font-size: 50px;
+}
+.p12
+{
+    color: black;
+    position: absolute;
+    top: 3120px;
+    font-size: 18px;
+    margin-left: 330px;
+}
+.bloc9
+{
+    background-color: white;
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    top: 3220px;
+    margin-left: 120px;
+}
+.p13
+{
+    color: black;
+    position: absolute;
+    top: 280px;
+    margin-left: 70px;
+}
+.img10
+{
+    width: 250px;
+    height: 300px;
+}
+.bloc10
+{
+    background-color: white;
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    top: 3220px;
+    margin-left: 400px;
+}
+.p14
+{
+    color: black;
+    position: absolute;
+    top: 280px;
+    margin-left: 70px;
+}
+.img11
+{
+    width: 250px;
+    height: 300px;
+}
+.bloc11
+{
+    background-color: white;
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    top: 3220px;
+    margin-left: 680px;
+}
+.p15
+{
+    color: black;
+    position: absolute;
+    top: 280px;
+    margin-left: 70px;
+}
+.img12
+{
+    width: 250px;
+    height: 300px;
+}
+.bloc12
+{
+    background-color: white;
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    top: 3220px;
+    margin-left: 960px;
+}
+.p16
+{
+    color: black;
+    position: absolute;
+    top: 280px;
+    margin-left: 70px;
+}
+.img13
+{
+    width: 250px;
+    height: 300px;
+}
+.section2
+{
+    position: absolute;
+    top: 3650px;
+}
+.img14
+{
+    height: 650px;
+    width: 1350px;
+}
+.p17
+{
+    position: absolute;
+    top: 60px;
+    margin-left: 460px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.span5
+{
+    font-size: 50px;
+}
+.p18
+{
+    position: absolute;
+    top: 130px;
+    font-size: 20px;
+}
+.bloc13
+{
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    border-radius: 5%;
+    position: absolute;
+    top: 240px;
+    margin-left: 90px;
+}
+.bloc14
+{
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    border-radius: 5%;
+    position: absolute;
+    top: 240px;
+    margin-left: 490px;
+}
+.bloc15
+{
+    background-color:white;
+    width: 350px;
+    height: 320px;
+    border-radius: 5%;
+    position: absolute;
+    top: 240px;
+    margin-left: 890px;
+}
+.img15
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    margin-left: 130px;
+}
+.p19
+{
+    position: absolute;
+    top: 120px;
+    color: black;
+    font-size: 10px;   
+}
+.po1
+{
+    position: absolute;
+    top: 250px;
+    color: #FB911F;
+    margin-left: 120px;
+}
+.img16
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    margin-left: 130px;
+}
+.img17
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    margin-left: 130px;
+}
+.p20
+{
+    position: absolute;
+    top: 40px;
+    color: black;
+    font-size: 10px;
+}
+.po2
+{
+    position: absolute;
+    top: 250px;
+    color: #FB911F;
+    margin-left: 120px;
+}
+.p202
+{
+    position: absolute;
+    top: 40px;
+    color: black;
+    font-size: 10px;
+} 
+.po3
+{
+    position: absolute;
+    top: 250px;
+    color: #FB911F;
+    margin-left: 120px;
+}
+.p21
+{
+    position: absolute;
+    top: 4350px;
+    color: black;
+    margin-left: 580px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.span6
+{
+    font-size: 50px;
+}
+.p22
+{
+    position: absolute;
+    top: 4420px;
+    color: black;
+    margin-left: 350px;
+    font-size: 18px;
+}
+.Contact
+{
+    width: 500px;
+    height: 410px;
+    background: white;
+    color: black;
+    top: 4750px;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+.button5
+{
+    background-color: #FB911F;
+    position: absolute;
+    top: 300px;
+    margin-left: 45px;
+    text-align: center;
+    padding: 5px 15px;
+}
+.formulaire
+{
+    height: 50px;
+}
+.formInput
+{
+    position: absolute;
+    top: 120px;
+    width: 400px;
+    height: 30px;
+    margin-left: 45px;
+}
+.formInput2
+{
+    position: absolute;
+    top: 170px;
+    width: 400px;
+    height: 30px;
+    margin-left: 45px;
+}
+.formInput3
+{
+    position: absolute;
+    top: 220px;
+    width: 400px;
+    height: 50px;
+    margin-left: 45px;
+}
+.h1
+{
+    position: absolute;
+    top: 60px;
+    margin-left: 45px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.img18
+{
+    height: 800px;
+    width: 1350px;
+    position: absolute;
+    top: 4300px;
+}
+.p23
+{
+    position: absolute;
+    top: 5100px;
+    color: black;
+    margin-left: 450px;
+}
+   

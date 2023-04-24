@@ -1,0 +1,42 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: limegreen;
+}
+.loginbox
+{
+    width: 700px;
+    height: 420px;
+    background: white;
+    color: white;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    margin-left: 10%;
+}
+.loginbox input
+{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: green;
+    color: white;
+}
+h1
+{
+    color: black;
+    text-align: center;
+}
+button
+{
+    cursor: pointer;
+}

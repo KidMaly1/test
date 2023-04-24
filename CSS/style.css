@@ -1,0 +1,23 @@
+body
+{
+    background-color: black;
+}
+h1,h2,h3,h4
+{
+    color: white; text-align: center;
+}
+.p1{
+    color: red;
+}
+.p2{
+    color: green;
+}
+.p3{
+    color: yellow;
+}
+.p4{
+    color: blue;
+}
+.p5,.p6,.p7{
+    color: white;
+}
